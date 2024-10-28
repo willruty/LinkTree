@@ -2,6 +2,7 @@ body {
     background: url('img/fundo-blush-stroke.jpg') no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: black;
 
     a {
         text-decoration: none;
