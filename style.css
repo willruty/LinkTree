@@ -1,0 +1,69 @@
+body {
+    background: url('img/fundo-blush-stroke.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+#conteudo {
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 2px 100px rgba(0, 0, 0, .4);
+    height: 80%;
+    max-width: 600px;
+    margin-top: 6.5em;
+    color: #ffffff;
+    backdrop-filter: blur(10px);
+    font-family: "Quicksand", sans-serif;
+
+
+    #links {
+        margin-top: 20px;
+    }
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    margin-top: -80px;
+}
+
+.link i {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 2.3em;
+    font-size: 1.3em;
+
+    p {
+        display: inline;
+        margin-left: 5px;
+        font-style: normal;
+    }
+}
+
+div.col-12.link {
+    background-color: rgba(255, 255, 255, .2);
+    margin: 5px auto;
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    transition: all .3s;
+}
+
+div.col-12.link:hover {
+    scale: 1.1;
+    transition: all .3s;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+p#direitos {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 25px;
+    color: aliceblue;
+}
